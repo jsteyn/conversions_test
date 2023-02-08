@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "testwheel2"
+version = "0.1.0"
+description = ""
+authors = ["Jannetta Steyn <6432530+jsteyn@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+conversions-jsteyn = "^0.0.1"
+
+
+[[tool.poetry.source]]
+name = "testpypi"
+url = "https://test.pypi.org/simple/"
+default = false
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,23 @@
+[[package]]
+name = "conversions-jsteyn"
+version = "0.0.1"
+description = "A collection of conversion utility functions"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.source]
+type = "legacy"
+url = "https://test.pypi.org/simple"
+reference = "testpypi"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "e1485fc4e37aeb7131395b5bbb888df69e8d59c66239b2cb59155db5e52e0d78"
+
+[metadata.files]
+conversions-jsteyn = [
+    {file = "conversions_jsteyn-0.0.1-py3-none-any.whl", hash = "sha256:ddce69add4bcaff65ede1eedba0a2910bba321fb96050f4ecbed6f6b2a2269f4"},
+    {file = "conversions_jsteyn-0.0.1.tar.gz", hash = "sha256:d68f6a238fcdca3bff8add1d9ca0b49ed98c5cefc13a3209702296a4f7c29fdb"},
+]
