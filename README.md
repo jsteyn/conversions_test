@@ -4,7 +4,7 @@
 ## Creating a poetry environment
 - `poetry init` (in our case pyproject.toml already exists)
 - `poetry source add testpypi https://test.pypi.org/simple/` (to add the testpypi repository)
-- poetry add conversions_jsteyn
+- `poetry add conversions_jsteyn`
 - Run poetry show:
 > ``` bash
 > $ poetry show
