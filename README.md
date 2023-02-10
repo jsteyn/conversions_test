@@ -10,5 +10,5 @@
 > $ poetry show
 > conversions-jsteyn 0.0.1 A collection of conversion utility functions
 > 
-> poetry lock` # (to lock versions)
-> poetry run python temp.py` # (to run the Python script)```
+> $ poetry lock` # (to lock versions)
+> $ poetry run python temp.py` # (to run the Python script)```
